@@ -1,7 +1,37 @@
-class Contador {
-  // Inserte el código aquí
-}
+// class Contador {
+//   valor = 0;
+//  siguiente() {
+//  this.valor +=1 ;
+//  }
+// }
 
-// Inserte el código aquí
 
-export { instancia }
+// const instancia = new Contador();
+// export { instancia }
+
+
+// // const personas = { nombre: 'maria'}
+
+// console.log (tSCallSignatureDeclaration)
+
+
+//Funcion impura
+// let contador = 1 
+
+// function saludar ( ){
+// console.log ('saludo #', contador)
+// contador++
+
+// }
+
+// saludar()
+// saludar()
+
+
+
+//funcion pura 
+
+
+function saludar (contador)
+console.log
+
