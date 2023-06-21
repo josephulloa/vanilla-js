@@ -9,7 +9,7 @@
 <br />
 <br /> 
 2. Escribir una función llamada clonarObjeto.
-   * Dado un objeto, retorna un objeto nuevo con todos los elementos del objeto original.
+   * Dado un objeto, retorna un objeto nuevo con todos los elementos del objeto original
 <br />
 <br /> 
 3. Escribir una función llamada sumar.
@@ -20,4 +20,4 @@
 4. Escribir una función llamada saludar.
    * Debe recibir un parametro llamado nombre
    * El valor por defecto para el parametro nombre es "Desconocido"
-   * La función retorna el mensaje "Hola <nombre>"
+   * La función retorna el mensaje "Hola <nombre>"zzz
