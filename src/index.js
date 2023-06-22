@@ -15,8 +15,6 @@ function Actualizar() {
 
 let intervalID = setInterval(Actualizar, 1000);
 
-
-
 // const imprimirUsuarios = () => {
 //   const usuarios = obtenerUsuarios();
 //   usuarios
@@ -26,7 +24,27 @@ let intervalID = setInterval(Actualizar, 1000);
 //     .catch(Error);
 // };
 
+obtenerUsuarios();
+
+function obtenerUsuarios() {
+  fetch("http://localhost:3000/users")
+    .then((respuesta) => respuesta.json())
+    .then((data) => {
+      console.log("lista de usuarios", data);
+    })
+    .catch((error) => {
+      console.log("Error no hay lsta", error);
+    });
+}
+
+function usuarios() {
+  return new Promise(obtenerUsuarios);
+}
 
 
+async function datos() {
+  const datosUsuarios = await obtenerUsuarios();
+console.log (datosUsuarios)
+}
 
-
+datos()
