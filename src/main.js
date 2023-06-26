@@ -11,7 +11,7 @@ function horaDeHoy() {
   
 
 function Actualizar() {
-  let horaElemento = document.querySelector(".Hora");
+  let horaElemento = document.querySelector("#Hora");
   horaElemento.textContent = horaDeHoy();
 }
 

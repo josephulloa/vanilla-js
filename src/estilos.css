@@ -1,23 +1,14 @@
-.body {
-  margin: 0%;
-  height: 800px;
-  width: 800px;
-}
 
 .main {
-  height: 00px;
+  height: 200px;
   width: 700px;
   text-align: center;
-  justify-content: center;
   font-family: fantasy;
   font-size: x-large;
-  border: solid;
   border-width: 2px;
-  border-top-left-radius: 2px;
+  border-top: 3px solid black;
   position: absolute;
-  margin-top: 400px;
-  margin-left: 700px;
+  margin-top: 250px;
+  margin-left: 300px;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
-}
